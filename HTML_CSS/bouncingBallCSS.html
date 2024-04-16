@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .frame{
+            height: 300px;
+            width: 100%;
+            background-color: rgb(187, 133, 238);
+            border: 2px solid darkblue;
+            position: relative;
+        }
+        .circle1,.circle2,.circle3,.circle4,.circle5{
+            
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .circle1{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            bottom:0;
+            animation-name: circle1Ani;
+            animation-duration: 2s;
+           
+            
+        }
+        @keyframes circle1Ani {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-200px);
+            }
+        }
+        .circle2{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: rgb(21, 74, 187);
+            position: absolute;
+            bottom:0;
+            left:20%;
+            animation-name: circle2Ani;
+            animation-duration: 3s;
+        }
+        @keyframes circle2Ani {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-100px);
+            }
+        }
+        .circle3{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: rgb(70, 233, 16);
+            position: absolute;
+            bottom:0;
+            left:40%;
+            animation-name: circle3Ani;
+            animation-duration: 1s;
+        }
+        @keyframes circle3Ani {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-250px);
+            }
+        }
+        .circle4{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: rgb(12, 12, 12);
+            position: absolute;
+            bottom:0;
+            left:60%;
+            animation-name: circle4Ani;
+            animation-duration: 1.5s;
+        }
+        @keyframes circle4Ani {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-220px);
+            }
+        }
+        .circle5{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: rgb(221, 100, 13);
+            position: absolute;
+            bottom:0;
+            left:80%;
+            animation-name: circle5Ani;
+            animation-duration: 2s;
+        }
+        @keyframes circle5Ani {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-150px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+    </div>
+</body>
+</html>
