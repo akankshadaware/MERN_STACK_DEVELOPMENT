@@ -1,0 +1,45 @@
+.demo{
+    
+}
+.nav{
+    
+    background-color: aquamarine;
+}
+.navbar1 li{
+    float:left;
+    
+    list-style-type: none;
+}
+.navbar1 li a{
+    
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+
+}
+.centeri{
+    display: flex;
+    justify-content: center;
+}
+.form1{
+    height: 300px;
+    width:100%;
+    background-color: grey;
+    margin:20px;
+}
+.leftalign{
+   
+    margin:10px;
+}
+.rightalign{
+    margin:10px;
+}
+.vide {
+        width: 300px; /* Set a fixed width or adjust as needed */
+        margin: 0 auto; /* This centers the div horizontally */
+        border: 1px solid black; /* Optional: Add a border for visualization */
+        padding: 20px; /* Optional: Add padding to the div */
+      
+      
+}
